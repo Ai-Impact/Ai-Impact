@@ -1,0 +1,159 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the color of the text and links */
+body {
+  background-image: linear-gradient(to bottom right, #311C87, #800080);
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ccc;
+  text-decoration: underline;
+}
+
+/* Remove background color for specific elements */
+header,
+nav,
+.banner,
+.classes {
+  background: transparent;
+  padding: 0;
+}
+
+/* Style the navigation */
+nav {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Style the banner */
+.banner {
+  text-align: center;
+  padding: 50px;
+}
+
+.banner h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.banner .button {
+  display: block;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+
+.banner .button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+
+/* Style the classes section */
+.classes {
+  text-align: center;
+  padding: 50px;
+}
+
+.classes h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.classes ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.classes li {
+  margin: 20px;
+  max-width: 300px;
+}
+
+.classes h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.classes p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Style the h1 element */
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.ret{
+  width: 400px;
+}
+@media screen and (max-width: 480px) {
+  .ret{
+    width: 200px;
+  }
+}
+
+#particles-js {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -100;
+  top:0;
+  left:0;
+
+}
