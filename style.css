@@ -138,6 +138,16 @@ nav a:hover {
   font-size: 18px;
   margin-bottom: 10px;
 }
+.classes g {
+ 
+  justify-content: center;
+  align-items: center;
+  /* 
+  Challenge 3:
+  Center the red box both vertically
+  and horizontally using flexbox
+  */
+} 
 
 /* Style the h1 element */
 h1 {
@@ -182,3 +192,7 @@ h1 {
     }
 }
   
+.cent {
+  display: flex;
+  justify-content: center;
+}
